@@ -1,6 +1,6 @@
 # Predicción de Calidad en Planta de Flotación Minera
 
-[En este proyecto, el proceso de flotación consiste de un procedimiento de extracción del metal "hierro" a partir de su mineral. Se concentra el metal hasta que su ley sea adecuada (mínimo 60% de hierro) para uso en procesos metalúrgicos (hierro metálico y acero). 
+En este proyecto, el proceso de flotación consiste de un procedimiento de extracción del metal "hierro" a partir de su mineral. Se concentra el metal hasta que su ley sea adecuada (mínimo 60% de hierro) para uso en procesos metalúrgicos (hierro metálico y acero). 
 
 ## Descripción
 

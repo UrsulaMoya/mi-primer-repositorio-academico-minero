@@ -1,6 +1,6 @@
-# Predicción de Calidad en Planta de Flotación Minera
+# Predicción de Calidad en Planta de Flotación Minera (Proyecto Académico) 
 
-## Contexto del Proceso
+## Contexto del Proceso de Flotación
 
 ![](https://github.com/UrsulaMoya/mi-primer-repositorio-para-la-minera/blob/main/columna%20flotacion%20limpia.jpg)
 
@@ -8,8 +8,7 @@ El proceso de flotación es un procedimiento de extracción de metal (hierro) a 
 
 ## Descripción detallada del proyecto, propósito y contexto
 
-Para el proyecto se cuenta con la informaci´on entregada por el profesor del curso, correspondiente a datos tabulados en
-un archivo de tipo csv. El conjunto de datos proviene de una planta de flotaci´on con 737.453 observaciones ordenadas
+Se cuenta con información entregada correspondiente a datos tabulados en un archivo de tipo csv. El conjunto de datos proviene de una planta de flotaci´on con 737.453 observaciones ordenadas
 y antiguas, entre marzo y septiembre de 2017. La dimensi´on de los datos es 24: se reportan 23 variables simples
 cuantitativas de tipo flotante (continuas) y 1 variable fecha compuesta (discreta) inicialmente detectada como de tipo
 object por Pandas, siendo posteriormente convertida a tipo fecha con datatime. Fecha considera el momento de cada

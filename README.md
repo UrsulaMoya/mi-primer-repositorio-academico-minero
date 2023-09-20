@@ -11,39 +11,16 @@ El proceso de flotación es un procedimiento de extracción de metal (hierro) a 
 Se cuenta con información entregada correspondiente a datos tabulados en un archivo de tipo csv. El conjunto de datos proviene de una planta de flotación con 737.453 observaciones ordenadas
 y antiguas, entre marzo y septiembre de 2017. La dimensión de los datos es 24: reportando 23 variables simples cuantitativas de tipo flotante (continuas) y 1 variable fecha compuesta (discreta) inicialmente detectada como de tipo object por Pandas. Fecha considera el momento de cada medición realizada entre marzo y septiembre de 2017. En total hay 4097 instancias distintas de horas con alrededor de 174 a 180 muestras. El concentrado de sílica es la variable dependiente. En relación a la flotación se toman medidas antes de la planta de flotación, en el proceso de flotación y al final del proceso, y el objetivo es: a partir de los datos predecir el concentrado de sílica en el proceso (porcentaje concentrado de sílica medido al final del proceso en el laboratorio). Se asume que la variable a predecir es de tipo estática. Los restantes 23 atributos son: 
 
-	\begin{table} 
-			\begin{tabular}{|l|l|c|} \hline
-				{\bf Característica} & {\bf Variable (o Atributo)} & {\bf Unidad} \\ \hline
-				{\small Tiempo }   & $X_0:$ Fecha  &  Año-Mes-Día Hora:Minuto:Segundo \\ \hline
-				{\small Medidas de calidad del mineral de hierro  justo antes de la planta de flotación}    & $X_1:$ Alimentación de hierro &   \% \\
-				& $X_2:$ Alimentación de sílica  &   \%\\ \hline
-				{\small  Medidas al final del proceso de flotación}    & $X_3:$ Flujo de almidón &  $\dfrac{m^3}{h}$ \\
-				& $X_4:$ Flujo de amina &    $\dfrac{m^3}{h}$ \\
-				&  $X_5:$ Flujo de pulpa mineral &   $\dfrac{t}{h}$ \\
-				&  $X_6:$ pH de pulpa de mineral  &  no tiene \\
-				& $X_7:$ Densidad de la pulpa de mineral  &  $\dfrac{kg}{cm^3}$  \\  \hline
-				{\small Flujo de aire en el proceso de flotación}   &  $X_8:$ Flujo de aire columna de flotación 1  &  $\dfrac{Nm^3}{h}$ \\
-				& $X_9:$ Flujo de aire columna de flotación 2  &  $\dfrac{Nm^3}{h}$ \\
-				& $X_{10}:$ Flujo de aire columna de flotación 3  &   $\dfrac{Nm^3}{h}$\\
-				& $X_{11}:$ Flujo de aire columna de flotación 4   &  $\dfrac{Nm^3}{h}$ \\
-				&  $X_{12}:$ Flujo de aire columna de flotación 5 &  $\dfrac{Nm^3}{h}$ \\
-				&  $X_{13} :$ Flujo de aire columna de flotación 6 &  $\dfrac{Nm^3}{h}$ \\
-				& $X_{14} :$ Flujo de aire columna de flotación 7  &  $\dfrac{Nm^3}{h}$ \\   %\hline
-				& $X_{15} :$ Nivel columna de flotación 1  &   $mm$\\
-				& $X_{16} :$ Nivel columna de flotación 2  &   $mm$\\
-				& $X_{17} :$ Nivel columna de flotación 3   &  $mm$ \\
-				& $X_{18} :$ Nivel columna de flotación 4  &  $mm$ \\
-				& $X_{19} :$ Nivel columna de flotación 5  &  $mm$ \\
-				& $X_{20}:$ Nivel columna de flotación 6  &  $mm$ \\
-				& $X_{21}:$  Nivel columna de flotación 7 &  $mm$  \\ \hline
-				{\small Medida final de calidad de mineral de hierro mediante laboratorio}   &  $X_{22}:$ Concentrado de hierro &   \% \\
-				& $Y:$ Concentrado de sílica  &   \%\\ \hline
-			\end{tabular}
-			\caption{\textsf{{\footnotesize Variables presentes en la fuente de datos, incluyendo sus unidades respectivas.}}}
-			\label{tabla1}
-		\end{table}
+####Ordered list
+                
+1. Alimentaci´on de hierro
+2. Alimentaci´on de s´ılica
+3. Flujo de amina
+                
 
-Alimentaci´on de hierro, Alimentaci´on de s´ılica, Flujo de amina, Flujo de pulpa mineral,
+	
+
+, , , Flujo de pulpa mineral,
 pH de pulpa mineral, Densidad de la pulpa de mineral, Flujo de aire en cada una de las 7 columnas de flotaci´on,
 Nivel en cada una de las 7 columnas de flotaci´on y Concentrado de hierro, todas potenciales variables explicativas
 provenientes de las observaciones. En el Cuadro 1 se detallan todas las variables.

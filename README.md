@@ -1,4 +1,4 @@
-# Proyecto: Predicción de Calidad en Planta de Flotación Minera
+# Predicción de Calidad en Planta de Flotación Minera
 
 ## Contexto del Proceso
 

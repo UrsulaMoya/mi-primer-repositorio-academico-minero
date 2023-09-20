@@ -9,21 +9,21 @@ El proceso de flotación es un procedimiento de extracción de metal (hierro) a 
 ## Descripción detallada del proyecto, propósito y contexto
 
 Se cuenta con información entregada correspondiente a datos tabulados en un archivo de tipo csv. El conjunto de datos proviene de una planta de flotación con 737.453 observaciones ordenadas
-y antiguas, entre marzo y septiembre de 2017. La dimensión de los datos es 24: reportando 23 variables simples cuantitativas de tipo flotante (continuas) y 1 variable fecha compuesta (discreta) inicialmente detectada como de tipo object por Pandas. Fecha considera el momento de cada medición realizada entre marzo y septiembre de 2017. En total hay 4097 instancias distintas de horas con alrededor de 174 a 180 muestras. El concentrado de sílica es la variable dependiente. En relación a la flotación se toman medidas antes de la planta de flotación, en el proceso de flotación y al final del proceso, y el objetivo es: a partir de los datos predecir el concentrado de sílica en el proceso (porcentaje concentrado de sílica medido al final del proceso en el laboratorio). Se asume que la variable a predecir es de tipo estática. Los restantes 23 atributos son: 
+y antiguas, entre marzo y septiembre de 2017. La dimensión de los datos es 24: reportando 23 variables simples cuantitativas de tipo flotante (continuas) y 1 variable fecha compuesta (discreta) inicialmente detectada como de tipo object por Pandas. Fecha considera el momento de cada medición realizada entre marzo y septiembre de 2017. En total hay 4097 instancias distintas de horas con alrededor de 174 a 180 muestras. El concentrado de sílica es la variable dependiente. En relación a la flotación se toman medidas antes de la planta de flotación, en el proceso de flotación y al final del proceso, y el objetivo es: a partir de los datos predecir el concentrado de sílica en el proceso (porcentaje concentrado de sílica medido al final del proceso en el laboratorio). Se asume que la variable a predecir es de tipo estática. Las potenciales variables explicativas son: 
 
 ####Ordered list
                 
 1. Alimentaci´on de hierro
 2. Alimentaci´on de s´ılica
 3. Flujo de amina
-                
+4. Flujo de pulpa mineral
+5. pH de pulpa mineral
+6. Densidad de la pulpa de mineral
+7. Flujo de aire en cada una de las 7 columnas de flotación
+8. Nivel en cada una de las 7 columnas de flotaci´on
+9. Concentrado de hierro
 
-	
-
-, , , Flujo de pulpa mineral,
-pH de pulpa mineral, Densidad de la pulpa de mineral, Flujo de aire en cada una de las 7 columnas de flotaci´on,
-Nivel en cada una de las 7 columnas de flotaci´on y Concentrado de hierro, todas potenciales variables explicativas
-provenientes de las observaciones. En el Cuadro 1 se detallan todas las variables.
+ 
 Se verific´o que no hay datos faltantes, ni valores fuera de rango de los atributos seg´un lo investigado del proceso de
 flotaci´on, de manera que a priori no hay valores imposibles ni atributos irrelevantes en cuesti´on. Se constat´o que todos
 los datos corresponden al a˜no 2017 desde marzo a septiembre, con d´ıas desde 01 hasta 31, hora desde 00 hasta 23, con

@@ -22,7 +22,9 @@ Se presenta un breve análisis exploratorio indagando medidas de centralidad y d
 
 ## Tecnologías Utilizadas
 
-[Listado de las tecnologías, herramientas y lenguajes de programación utilizados en el proyecto]
+Los análisis expuestos hacen uso de las librer´ıas pandas, numpy, datatime, matplotlib, seaborn, scipy y sklearn. El estudio
+es efectuado fundamentalmente en virtud de lo aprendido en el curso y se hace uso del lenguaje de programaci´on Python
+con Notebook de Jupyter
 
 ## Instalación
 

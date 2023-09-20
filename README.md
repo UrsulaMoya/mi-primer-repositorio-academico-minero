@@ -8,23 +8,13 @@ El proceso de flotación es un procedimiento de extracción de metal (hierro) a 
 
 ## Descripción detallada del proyecto, propósito y contexto
 
-Se presenta un breve análisis exploratorio indagando medidas de centralidad y de extensión. Se exhibe un análisis para entender y modelar cómo el porcentaje de sílica se ve afectado por los otros factores del proceso de flotación, el cual es realizado para disminuir la concentración de sílica presente en el mineral de hierro. Este análisis considera una descripción de los datos de tipo general, relaciones y comparaciones pertinentes tipo scatter plot, boxplot y correlaciones lineales. Esto en virtud de poder entrever alguna hipótesis para el objetivo planteado de predecir el porcentaje de concentración final de sílica. Se hace un estudio habitual de posibles outliers a través de boxplot exponiendo el análisis exploratorio de forma comparativa con y sin potenciales outliers.
+Se presenta un breve análisis exploratorio indagando medidas de centralidad y de extensión. Se exhibe un análisis para entender y modelar cómo el porcentaje de sílica se ve afectado por los otros factores del proceso de flotación, el cual es realizado para disminuir la concentración de sílica presente en el mineral de hierro. Este análisis considera una descripción de los datos de tipo general, relaciones y comparaciones pertinentes tipo scatter plot, boxplot y correlaciones lineales. Esto en virtud de poder entrever alguna hipótesis para el objetivo planteado de predecir el porcentaje de concentración final de sílica. Se hace un estudio habitual de posibles outliers a través de boxplot exponiendo el análisis exploratorio de forma comparativa con y sin potenciales outliers. El estudio es efectuado en virtud de lo aprendido en un curso de Fundamentos de Ciencia de Datos. 
 
-## Tabla de Contenidos
-
-- [Tecnologías Utilizadas](#tecnologías-utilizadas)
-- [Instalación](#instalación)
-- [Uso](#uso)
-- [Resultados](#resultados)
-- [Aprendizajes](#aprendizajes)
-- [Contribución](#contribución)
-- [Licencia](#licencia)
 
 ## Tecnologías Utilizadas
 
-Los análisis expuestos hacen uso de las librer´ıas pandas, numpy, datatime, matplotlib, seaborn, scipy y sklearn. El estudio
-es efectuado fundamentalmente en virtud de lo aprendido en el curso y se hace uso del lenguaje de programaci´on Python
-con Notebook de Jupyter
+Los análisis expuestos hacen uso de las librerías pandas, numpy, datatime, matplotlib, seaborn, scipy y sklearn en lenguaje de programación Python
+con Notebook de Jupyter. 
 
 ## Instalación
 

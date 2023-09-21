@@ -43,7 +43,7 @@ con Notebook de Jupyter.
 
 Se presentaron correlaciones lineales altas entre la alimentación de hierro y sílica, también entre las columnas 1 y 2, y entre los flujos en columnas 1 y 3, entre los flujos de columnas 2 y 3, y entre las columnas 6 y 7.
 
-![]()
+![](https://github.com/UrsulaMoya/mi-primer-repositorio-academico-minero/blob/main/correlaciones3.png)
 
 
 ## Aprendizajes

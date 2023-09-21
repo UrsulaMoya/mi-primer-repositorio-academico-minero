@@ -1,4 +1,4 @@
-# Predicción de Calidad en Planta de Flotación Minera (Proyecto Académico) 
+# Predicción de Calidad en Planta de Flotación Minera (Proyecto Académico con Enfoque de Aprendizaje Supervisado) 
 
 ## Contexto del Proceso de Flotación
 
@@ -40,6 +40,10 @@ con Notebook de Jupyter.
 [Instrucciones sobre cómo utilizar el proyecto, incluyendo ejemplos y comandos si aplican]
 
 ## Resultados
+
+Los valores del flujo de aire en el proceso de flotación de las columnas presentaron mayor dispersión y asimetrías moderadas en las columnas 1,2,3,6 y 7. En las columnas 4 y 5 se presentaron rangos pequeños y menor dispersión.
+
+![]()
 
 Se presentaron correlaciones lineales altas entre la alimentación de hierro y sílica, también entre las columnas 1 y 2, y entre los flujos en columnas 1 y 3, entre los flujos de columnas 2 y 3, y entre las columnas 6 y 7.
 

@@ -74,15 +74,12 @@ El orden del procedimiento empleado en este proyecto podría cambiar los rendimi
 
 ## Contribución
 
-[Cualquier comentario es bien recibido, idealmente por correo de perfil.]
+A este trabajo contribuyó Sofia Vitz. Cualquier comentario o aporte adicional que contribuya al trabajo será bien recibido con afán de corregir o mejorar el análisis y el código, remitirse a correo de perfil.
 
 ## Licencia
 
-[Indica la licencia bajo la cual se publica el proyecto]
+Este proyecto se publica bajo la licencia MIT.
 
 ---
 
-[Opcional: Agrega cualquier información adicional, enlaces a recursos externos o créditos]
-
-[Incluye una sección de contacto si deseas que las personas se pongan en contacto contigo para obtener más información]
 

@@ -34,8 +34,7 @@ Se contrarrestaron diversos ajustes de modelos lineales para distintos conjuntos
 
 ## Tecnologías Utilizadas
 
-Los análisis expuestos hacen uso de las librerías pandas, numpy, datatime, matplotlib, seaborn, scipy y sklearn en lenguaje de programación Python
-con Notebook de Jupyter. 
+Los análisis expuestos hacen uso de las librerías pandas, numpy, datatime, matplotlib, seaborn, scipy y sklearn en lenguaje de programación Python con Notebook de Jupyter. 
 
 ## Instalación
 
@@ -49,7 +48,8 @@ import matplotlib.pyplot as plt # para generación de gráficos
 import seaborn as sns  # visualización de datos
 from scipy import stats # para eliminar datos atípicos con remoción horizontal
 from IPython.display import display #Para mostrar la tabla de pandas (No es necesario)
-import sklearn # skicit-learn, libreria para M.L. en general ```
+import sklearn # skicit-learn, libreria para M.L. en general
+```
 
 
 ## Uso

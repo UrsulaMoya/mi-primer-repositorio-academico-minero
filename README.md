@@ -30,6 +30,9 @@ Se buscó una relación lineal en los parámetros, construyendo un modelo predic
 $$Y=  \beta_ 0 +\sum_{j=1}^{22} \beta_ j g(X_{j}) + \epsilon = \beta_ 0 + \beta_ 1 g(X_{1}) +\beta_ 2 g(X_{2})+\cdot+\beta_{22} g(X_{22})+ \epsilon ,$$
 donde  $g$  es una función no necesariamente lineal en la variable $X_{j}$ y $\epsilon$ corresponde al error aleatorio.
 
+Se contrarrestaron diversos ajustes de modelos lineales para distintos conjuntos de datos, pasando por modelos polinomiales en las variables predictoras y se aplicó reducción de la dimensionalidad a un conjunto de datos sin duplicados, sin outliers, sin variables correlacionadas fuertemente y transformando según PCA. Se utilizó validación cruzada con 70% de datos para entrenar y 30% para testear. 
+
+
 
 ## Tecnologías Utilizadas
 
@@ -59,7 +62,10 @@ Se presentaron correlaciones lineales altas entre la alimentación de hierro y s
 
 ![](https://github.com/UrsulaMoya/mi-primer-repositorio-academico-minero/blob/main/correlaciones3.png)
 
-Se contrarrestaron diversos ajustes de modelos lineales para distintos conjuntos de datos, pasando por modelos polinomiales en las variables predictoras y se aplicó reducción de la dimensionalidad a un conjunto de datos sin duplicados, sin outliers, sin variables correlacionadas fuertemente y transformando según PCA. 
+Al aplicar PCA en un conjunto reducido se redujo de 17 a 8 atributos, obteniéndose finalmente las siguientes métricas en los modelos de Machine Learning
+
+
+
 
 
 ## Aprendizajes

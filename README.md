@@ -41,9 +41,15 @@ con Notebook de Jupyter.
 
 ## Resultados
 
-Los valores del flujo de aire en el proceso de flotación de las columnas presentaron mayor dispersión y asimetrías moderadas en las columnas 1,2,3,6 y 7. En las columnas 4 y 5 se presentaron rangos pequeños y menor dispersión.
+En el histograma  de la distribución de los valores del porcentaje concentrado de sílica se observó un valor máximo de frecuencia significativamente menor que en el análisis  del concentrado de sílica con outliers. La desviación estándar disminuyó ligeramente. Los valores de los percentiles disminuyeron respecto a los datos que incluían outliers. La forma general de la distribución se mantuvo, al igual que las distancia de la media a los percentiles. En el boxplot de la distribución de los valores sin outliers del porcentaje de sílica mediante laboratorio, se observó que a pesar de que el sesgo hacia la derecha (sesgo positivo) permaneció, se visualiza que el centro de la caja se desplazó levemente hacia la izquierda del 2% que es el máximo ideal. 
 
 ![]()
+
+Los valores del flujo de aire en el proceso de flotación de las columnas presentaron mayor dispersión y asimetrías moderadas en las columnas 1,2,3,6 y 7. En las columnas 4 y 5 se presentaron rangos pequeños y menor dispersión.
+
+![](https://github.com/UrsulaMoya/mi-primer-repositorio-academico-minero/blob/main/caja6.png)
+
+
 
 Se presentaron correlaciones lineales altas entre la alimentación de hierro y sílica, también entre las columnas 1 y 2, y entre los flujos en columnas 1 y 3, entre los flujos de columnas 2 y 3, y entre las columnas 6 y 7.
 

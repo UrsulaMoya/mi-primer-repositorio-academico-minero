@@ -54,6 +54,12 @@ import sklearn # skicit-learn, libreria para M.L. en general
 
 ## Uso
 
+Para replicar este trabajo se debe leer el archivo .csv desde el directorio de trabajo en el notebook
+
+```
+df = pd.read_csv('data_mining_quality.csv', decimal = ',')  
+```
+
 [Instrucciones sobre cómo utilizar el proyecto, incluyendo ejemplos y comandos si aplican]
 
 ## Resultados
@@ -79,7 +85,7 @@ Para predecir la sílica final en el proceso de flotación minera se escoge el m
 
 ## Aprendizajes
 
-El orden del procedimiento empleado en este proyecto podría cambiar los rendimientos de los modelos. Se sugiere en un siguiente proyecto usar Random Forest Regressor y Support Vector Regression, o probar con otras funciones matemáticas aplicadas a las variables $$X_j$$. Además, de una posible reducción a 2 componentes que representarar más del 98% de información.
+El orden del procedimiento empleado en este proyecto podría cambiar los rendimientos de los modelos. Se sugiere en un siguiente proyecto usar Random Forest Regressor y Support Vector Regression, o probar con otras funciones matemáticas aplicadas a las variables $X_j$. Además, de una posible reducción a 2 componentes que representarar más del 98% de información.
 
 ## Contribución
 

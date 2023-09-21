@@ -41,7 +41,10 @@ con Notebook de Jupyter.
 
 ## Resultados
 
-[Detalles sobre los resultados clave obtenidos durante el proyecto, posiblemente acompañados de gráficos o visualizaciones]
+Se presentaron correlaciones lineales altas entre la alimentación de hierro y sílica, también entre las columnas 1 y 2, y entre los flujos en columnas 1 y 3, entre los flujos de columnas 2 y 3, y entre las columnas 6 y 7.
+
+![]()
+
 
 ## Aprendizajes
 

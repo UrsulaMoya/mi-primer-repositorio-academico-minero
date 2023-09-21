@@ -64,17 +64,17 @@ Se presentaron correlaciones lineales altas entre la alimentación de hierro y s
 
 Al aplicar PCA en un conjunto reducido se redujo de 17 a 8 atributos, obteniéndose finalmente las siguientes métricas en los modelos de Machine Learning
 
+![](https://github.com/UrsulaMoya/mi-primer-repositorio-academico-minero/blob/main/resultados.png)
 
-
-
+Para predecir la sílica final en el proceso de flotación minera se escoge el modelo de regresión lineal entrenado en el conjunto $C_1,$$ pues el indicador MSE no es alto y el coeficiente de determinación $$R^2$$ es el más alto.
 
 ## Aprendizajes
 
-[Comparte tus aprendizajes, desafíos superados y reflexiones personales durante el proyecto]
+El orden del procedimiento empleado en este proyecto podría cambiar los rendimientos de los modelos.
 
 ## Contribución
 
-[Instrucciones para aquellos que deseen contribuir al proyecto o informar sobre problemas]
+[Cualquier comentario es bien recibido, idealmente por correo de perfil.]
 
 ## Licencia
 

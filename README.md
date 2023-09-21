@@ -1,4 +1,4 @@
-# Predicción de Calidad en Planta de Flotación Minera (Proyecto Académico con Enfoque de Aprendizaje Supervisado) 
+# Predicción de Calidad en Planta de Flotación Minera - Proyecto Académico con Enfoque de Aprendizaje Supervisado 
 
 ## Contexto del Proceso de Flotación
 
@@ -25,6 +25,11 @@ No hay datos faltantes, ni valores fuera de rango de los atributos. Se excluyen 
 
 Se presenta un breve análisis exploratorio indagando medidas de centralidad y de extensión. Se exhibe un análisis para entender y modelar cómo el porcentaje de sílica se ve afectado por los otros factores del proceso de flotación, el cual es realizado para disminuir la concentración de sílica presente en el mineral de hierro. Este análisis considera una descripción de los datos de tipo general, relaciones y comparaciones pertinentes tipo scatter plot, boxplot y correlaciones lineales. Esto en virtud de poder entrever alguna hipótesis para el objetivo planteado de predecir el porcentaje de concentración final de sílica. Se hace un estudio habitual de posibles outliers a través de boxplot exponiendo el análisis exploratorio de forma comparativa con y sin potenciales outliers. El estudio es efectuado en virtud de lo aprendido en un curso de Fundamentos de Ciencia de Datos. 
 
+Se buscó una relación lineal en los parámetros, construyendo un modelo predictivo de la variables Y del concentrado de sílica a partir de las variables $X_1, X_2, ..., X_{22}$ de modo que 
+
+$$Y=  \beta_ 0 +\sum_{j=1}^{22} \beta_ j g(X_{j}) + \epsilon = \beta_ 0 + \beta_ 1 g(X_{1}) +\beta_ 2 g(X_{2})+\cdot+\beta_{22} g(X_{22})+ \epsilon ,$$
+donde  $g$  es una función no necesariamente lineal en la variable $X_{j}$ y $\epsilon$ corresponde al error aleatorio.
+
 
 ## Tecnologías Utilizadas
 
@@ -50,10 +55,11 @@ Con o sin datos atípicos, los valores del flujo de aire en el proceso de flotac
 ![](https://github.com/UrsulaMoya/mi-primer-repositorio-academico-minero/blob/main/caja6.png)
 
 
-
 Se presentaron correlaciones lineales altas entre la alimentación de hierro y sílica, también entre las columnas 1 y 2, y entre los flujos en columnas 1 y 3, entre los flujos de columnas 2 y 3, y entre las columnas 6 y 7.
 
 ![](https://github.com/UrsulaMoya/mi-primer-repositorio-academico-minero/blob/main/correlaciones3.png)
+
+Se contrarrestaron diversos ajustes de modelos lineales para distintos conjuntos de datos, pasando por modelos polinomiales en las variables predictoras y se aplicó reducción de la dimensionalidad a un conjunto de datos sin duplicados, sin outliers, sin variables correlacionadas fuertemente y transformando según PCA. 
 
 
 ## Aprendizajes

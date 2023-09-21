@@ -30,8 +30,7 @@ Para el objetivo, se buscó una relación lineal en los parámetros, construyend
 $$Y=  \beta_ 0 +\sum_{j=1}^{22} \beta_ j g(X_{j}) + \epsilon = \beta_ 0 + \beta_ 1 g(X_{1}) +\beta_ 2 g(X_{2})+\cdot+\beta_{22} g(X_{22})+ \epsilon ,$$
 donde  $$g$$  es una función no necesariamente lineal en la variable $$X_{j}$$ y $$\epsilon$$ corresponde al error aleatorio.
 
-Se contrarrestaron diversos ajustes de modelos lineales para distintos conjuntos de datos, pasando por modelos polinomiales en las variables predictoras y se aplicó reducción de la dimensionalidad a un conjunto de datos sin duplicados, sin outliers, sin variables correlacionadas fuertemente y transformando según PCA. Se utilizó validación cruzada con 70% de datos para entrenar y 30% para testear. 
-
+Se contrarrestaron diversos ajustes de modelos lineales para distintos conjuntos de datos, pasando por modelos polinomiales en las variables predictoras y se aplicó reducción de la dimensionalidad a un conjunto de datos sin duplicados, sin outliers, sin variables correlacionadas fuertemente y transformando según la técnica PCA (modelo que determina cantidad de nuevas componentes necesarias para representar el 100% porcentaje de la información). Se utilizó validación cruzada con 70% de datos para entrenar y 30% para testear. 
 
 
 ## Tecnologías Utilizadas
@@ -41,7 +40,16 @@ con Notebook de Jupyter.
 
 ## Instalación
 
-[Instrucciones claras sobre cómo instalar y configurar el proyecto localmente, incluyendo las dependencias si es necesario]
+Este trabajo se puede replicar en un Notebook de Jupyter (ver explicación en https://youtu.be/rNgswRZ2C1Y) y las instalaciones de las librerías se efectúan con las siguientes instrucciones
+
+import pandas as pd # para importar y manipular datos en varios formatos
+import numpy as np # computación numérica
+import datetime  # para manipulación de fechas
+import matplotlib.pyplot as plt # para generación de gráficos
+import seaborn as sns  # visualización de datos
+from scipy import stats # para eliminar datos atípicos con remoción horizontal
+from IPython.display import display #Para mostrar la tabla de pandas (No es necesario)
+import sklearn # skicit-learn, libreria para M.L. en general 
 
 ## Uso
 
@@ -70,7 +78,7 @@ Para predecir la sílica final en el proceso de flotación minera se escoge el m
 
 ## Aprendizajes
 
-El orden del procedimiento empleado en este proyecto podría cambiar los rendimientos de los modelos.
+El orden del procedimiento empleado en este proyecto podría cambiar los rendimientos de los modelos. Se sugiere en un siguiente proyecto usar Random Forest Regressor y Support Vector Regression, o probar con otras funciones matemáticas aplicadas a las variables $$X_j$$. Además, de una posible reducción a 2 componentes que representarar más del 98% de información.
 
 ## Contribución
 

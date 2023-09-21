@@ -42,6 +42,7 @@ con Notebook de Jupyter.
 
 Este trabajo se puede replicar en un Notebook de Jupyter (explicación de estos Notebook en (https://youtu.be/rNgswRZ2C1Y) y las instalaciones de las librerías se efectúan con las siguientes instrucciones
 
+```
 import pandas as pd # para importar y manipular datos en varios formatos
 import numpy as np # computación numérica
 import datetime  # para manipulación de fechas
@@ -49,7 +50,7 @@ import matplotlib.pyplot as plt # para generación de gráficos
 import seaborn as sns  # visualización de datos
 from scipy import stats # para eliminar datos atípicos con remoción horizontal
 from IPython.display import display #Para mostrar la tabla de pandas (No es necesario)
-import sklearn # skicit-learn, libreria para M.L. en general 
+import sklearn # skicit-learn, libreria para M.L. en general ```
 
 ## Uso
 

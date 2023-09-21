@@ -25,7 +25,7 @@ No hay datos faltantes, ni valores fuera de rango de los atributos. Se excluyen 
 
 Se presenta un breve análisis exploratorio indagando medidas de centralidad y de extensión. Se exhibe un análisis para entender y modelar cómo el porcentaje de sílica se ve afectado por los otros factores del proceso de flotación, el cual es realizado para disminuir la concentración de sílica presente en el mineral de hierro. Este análisis considera una descripción de los datos de tipo general, relaciones y comparaciones pertinentes tipo scatter plot, boxplot y correlaciones lineales. Esto en virtud de poder entrever alguna hipótesis para el objetivo planteado de predecir el porcentaje de concentración final de sílica. Se hace un estudio habitual de posibles outliers a través de boxplot exponiendo el análisis exploratorio de forma comparativa con y sin potenciales outliers. El estudio es efectuado en virtud de lo aprendido en un curso de Fundamentos de Ciencia de Datos. 
 
-Para el objetivo, se buscó una relación lineal en los parámetros, construyendo un modelo predictivo de la variables Y del concentrado de sílica a partir de las variables $X_1, X_2, ..., X_{22}$ de modo que 
+Para el objetivo, se buscó una relación lineal en los parámetros, construyendo un modelo predictivo de la variables Y del concentrado de sílica a partir de las potenciales variables predictoras $X_1, X_2, ..., X_{22}$ de modo que 
 
 $$Y=  \beta_ 0 +\sum_{j=1}^{22} \beta_ j g(X_{j}) + \epsilon = \beta_ 0 + \beta_ 1 g(X_{1}) +\beta_ 2 g(X_{2})+\cdot+\beta_{22} g(X_{22})+ \epsilon ,$$
 donde  $g$  es una función no necesariamente lineal en la variable $X_{j}$ y $\epsilon$ corresponde al error aleatorio.

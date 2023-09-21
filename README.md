@@ -40,7 +40,7 @@ con Notebook de Jupyter.
 
 ## Instalación
 
-Este trabajo se puede replicar en un Notebook de Jupyter (ver explicación en https://youtu.be/rNgswRZ2C1Y) y las instalaciones de las librerías se efectúan con las siguientes instrucciones
+Este trabajo se puede replicar en un Notebook de Jupyter (explicación de estos Notebook en (https://youtu.be/rNgswRZ2C1Y) y las instalaciones de las librerías se efectúan con las siguientes instrucciones
 
 import pandas as pd # para importar y manipular datos en varios formatos
 import numpy as np # computación numérica

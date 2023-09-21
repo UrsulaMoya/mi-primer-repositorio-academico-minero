@@ -40,7 +40,7 @@ con Notebook de Jupyter.
 
 ## Instalación
 
-Este trabajo se puede replicar en un Notebook de Jupyter (explicación de estos Notebook en (https://youtu.be/rNgswRZ2C1Y) y las instalaciones de las librerías se efectúan con las siguientes instrucciones
+Este trabajo se puede replicar en un Notebook de Jupyter (explicación de estos Notebook en (https://youtu.be/rNgswRZ2C1Y) o instalando en forma local un editor como Visual Studio Code (instalación desde (https://code.visualstudio.com/download) disponible para Windows 10 o 11,  Linux o Mac) y las instalaciones de las librerías se efectúan con las siguientes instrucciones
 
 ```
 import pandas as pd # para importar y manipular datos en varios formatos

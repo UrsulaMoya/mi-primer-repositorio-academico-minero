@@ -1,4 +1,4 @@
-# Proyecto Académico con Enfoque de Aprendizaje Supervisado: Predicción de Calidad en Planta de Flotación Minera 
+# Proyecto Académico con Enfoque de Aprendizaje Supervisado: Predicción de Calidad en Planta de Flotación Minera - Dirigido a estudiantes en Ciencia de Datos
 
 ## Contexto del Proceso de Flotación
 
